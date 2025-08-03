@@ -1,11 +1,13 @@
-import React from "react";
-import Header from "../components/Header";
+import Img111 from '../assets/images (1).png'
+import Image from '../components/Image';
 
 const HomePage = () => {
+  const arr = ["", "", ""]
   return (
     <div>
-      <Header />
       <div>React React DOM With Header</div>
+      <Image src={Img111} />
+      <Image src='/test-image.png' />
     </div>
   );
 };
